@@ -4,4 +4,4 @@ We have created an employee registration form. The form will support built-in cl
 
 # Demo
 
-![blazor-forms-validation](https://github.com/AnkitSharma-007/blazor-forms-validation/blob/main/Output/BlazorFormsValidation.gif)
+![blazor-forms-validation](https://github.com/AnkitSharma-007/blazor-forms-validation/blob/main/Output/BlazorForms.gif)
