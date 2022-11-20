@@ -28,9 +28,9 @@ namespace BlazorFormsValidation.Client.Shared
 
         public void DisplayFormErrors(Dictionary<string, List<string>> errors)
         {
-            foreach (var err in errors)
+            if (CurrentEditContext is not null)
             {
-                if (CurrentEditContext != null)
+                foreach (var err in errors)
                 {
                     validationMessageStore?.Add(CurrentEditContext.Field(err.Key), err.Value);
                 }
